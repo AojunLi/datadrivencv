@@ -106,7 +106,7 @@ Main
 CV %<>% print_text_block("intro") 
 ```
 
-Work Experience {data-icon=suitcase}
+Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 <!-- ::: aside -->
