@@ -117,12 +117,12 @@ CV %<>% print_section('education')
 
 
 
-Research Experience {data-icon=laptop}
---------------------------------------------------------------------------------
+<!-- Research Experience {data-icon=laptop} -->
+<!-- -------------------------------------------------------------------------------- -->
 
-```{r}
-CV %<>% print_section('research_positions')
-```
+<!-- ```{r} -->
+<!-- CV %<>% print_section('research_positions') -->
+<!-- ``` -->
 
 
 
