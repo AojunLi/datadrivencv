@@ -106,7 +106,7 @@ Main
 CV %<>% print_text_block("intro") 
 ```
 
-Industry Experience {data-icon=suitcase}
+Work Experience {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 <!-- ::: aside -->
@@ -126,7 +126,12 @@ Education {data-icon=graduation-cap data-concise=true}
 CV %<>% print_section('education')
 ```
 
+Certifications {data-icon=certificate data-concise=true}
+--------------------------------------------------------------------------------
 
+```{r}
+CV %<>% print_section('certifications')
+```
 
 <!-- Research Experience {data-icon=laptop} -->
 <!-- -------------------------------------------------------------------------------- -->
@@ -203,7 +208,7 @@ CV %<>% print_section('education')
 
 
 
-```{r}
-CV %<>% print_links()
-```
+<!-- ```{r} -->
+<!-- CV %<>% print_links() -->
+<!-- ``` -->
 
