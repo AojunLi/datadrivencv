@@ -98,12 +98,12 @@ Education {data-icon=graduation-cap data-concise=true}
 CV %<>% print_section('education')
 ```
 
-Certification {data-icon=certificate data-concise=true}
---------------------------------------------------------------------------------
+<!-- Certification {data-icon=certificate data-concise=true} -->
+<!-- -------------------------------------------------------------------------------- -->
 
-```{r}
-CV %<>% print_section('certifications')
-```
+<!-- ```{r} -->
+<!-- CV %<>% print_section('certifications') -->
+<!-- ``` -->
 
 <!-- Research Experience {data-icon=laptop} -->
 <!-- -------------------------------------------------------------------------------- -->
