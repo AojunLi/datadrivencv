@@ -64,7 +64,7 @@ Certifications {#certifications}
 
 ![logo](cert/adv.jpg){width=100%}
 
-![logo](cert/ba.jpg){width=100%}
+![logo](cert/ba.png){width=100%}
 
 
 Main
