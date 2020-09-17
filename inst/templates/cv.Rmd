@@ -45,6 +45,20 @@ if(params$pdf_mode) {
 Aside
 ================================================================================
 
+Contact {#contact}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %>% print_contact_info()
+```
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %>% print_skill_bars()
+```
+
 <!-- {{#use_network_logo}} -->
 <!-- ```{r} -->
 <!-- # Build interactive network of positions colored by section -->
@@ -53,8 +67,8 @@ Aside
 <!-- ``` -->
 <!-- {{/use_network_logo}} -->
 <!-- {{^use_network_logo}} -->
-<!-- <!-- Swap image with your preferred logo --> -->
-<!-- ![logo](https://cran.r-project.org/Rlogo.svg){width=100%} -->
+<!-- Swap image with your preferred logo -->
+![logo](https://cran.r-project.org/Rlogo.svg){width=100%}
 <!-- {{/use_network_logo}} -->
 
 
@@ -65,24 +79,6 @@ Aside
 <!--   cat("[<i class='fas fa-download'></i> Download a PDF of this CV]({{pdf_location}})") -->
 <!-- } -->
 <!-- ``` -->
-
-Contact {#contact}
---------------------------------------------------------------------------------
-
-```{r}
-CV %>% print_contact_info()
-```
-
-
-
-Skills {#skills}
---------------------------------------------------------------------------------
-
-```{r}
-CV %>% print_skill_bars()
-```
-
-
 
 <!-- Disclaimer {#disclaimer} -->
 <!-- -------------------------------------------------------------------------------- -->
