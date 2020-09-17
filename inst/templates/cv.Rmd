@@ -59,6 +59,8 @@ Skills {#skills}
 CV %>% print_skill_bars()
 ```
 
+Certifications {#certifications}
+--------------------------------------------------------------------------------
 
 ![logo](logo.jpg){width=100%}
 
