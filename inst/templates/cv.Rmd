@@ -66,6 +66,10 @@ Certifications {#certifications}
 
 ![logo](cert/ba.png){width=100%}
 
+![logo](cert/sql.jpg){width=100%}
+
+![logo](cert/adm.jpg){width=100%}
+
 
 Main
 ================================================================================
