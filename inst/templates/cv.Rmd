@@ -59,37 +59,8 @@ Skills {#skills}
 CV %>% print_skill_bars()
 ```
 
-<!-- {{#use_network_logo}} -->
-<!-- ```{r} -->
-<!-- # Build interactive network of positions colored by section -->
-<!-- # and connected if they occurred in the same year -->
-<!-- datadrivencv::build_network_logo(CV$entries_data) -->
-<!-- ``` -->
-<!-- {{/use_network_logo}} -->
-<!-- {{^use_network_logo}} -->
-<!-- Swap image with your preferred logo -->
 
 ![logo](logo.jpg){width=100%}
-<!-- {{/use_network_logo}} -->
-
-
-<!-- ```{r} -->
-<!-- if(params$pdf_mode){ -->
-<!--   cat("View this CV online with links at _{{{html_location}}}_") -->
-<!-- } else { -->
-<!--   cat("[<i class='fas fa-download'></i> Download a PDF of this CV]({{pdf_location}})") -->
-<!-- } -->
-<!-- ``` -->
-
-<!-- Disclaimer {#disclaimer} -->
-<!-- -------------------------------------------------------------------------------- -->
-
-<!-- Made with the R package [**pagedown**](https://github.com/rstudio/pagedown).  -->
-
-<!-- The source code is available [on github.com/nstrayer/cv]({{{source_location}}}). -->
-
-<!-- Last updated on `r Sys.Date()`. -->
-
 
 
 Main
