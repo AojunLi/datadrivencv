@@ -68,7 +68,8 @@ CV %>% print_skill_bars()
 <!-- {{/use_network_logo}} -->
 <!-- {{^use_network_logo}} -->
 <!-- Swap image with your preferred logo -->
-![logo](https://cran.r-project.org/Rlogo.svg){width=100%}
+
+![logo](logo.jpg){width=100%}
 <!-- {{/use_network_logo}} -->
 
 
