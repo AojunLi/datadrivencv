@@ -45,26 +45,26 @@ if(params$pdf_mode) {
 Aside
 ================================================================================
 
-{{#use_network_logo}}
-```{r}
-# Build interactive network of positions colored by section
-# and connected if they occurred in the same year
-datadrivencv::build_network_logo(CV$entries_data)
-```
-{{/use_network_logo}}
-{{^use_network_logo}}
-<!-- Swap image with your preferred logo -->
-![logo](https://cran.r-project.org/Rlogo.svg){width=100%}
-{{/use_network_logo}}
+<!-- {{#use_network_logo}} -->
+<!-- ```{r} -->
+<!-- # Build interactive network of positions colored by section -->
+<!-- # and connected if they occurred in the same year -->
+<!-- datadrivencv::build_network_logo(CV$entries_data) -->
+<!-- ``` -->
+<!-- {{/use_network_logo}} -->
+<!-- {{^use_network_logo}} -->
+<!-- <!-- Swap image with your preferred logo --> -->
+<!-- ![logo](https://cran.r-project.org/Rlogo.svg){width=100%} -->
+<!-- {{/use_network_logo}} -->
 
 
-```{r}
-if(params$pdf_mode){
-  cat("View this CV online with links at _{{{html_location}}}_")
-} else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV]({{pdf_location}})")
-}
-```
+<!-- ```{r} -->
+<!-- if(params$pdf_mode){ -->
+<!--   cat("View this CV online with links at _{{{html_location}}}_") -->
+<!-- } else { -->
+<!--   cat("[<i class='fas fa-download'></i> Download a PDF of this CV]({{pdf_location}})") -->
+<!-- } -->
+<!-- ``` -->
 
 Contact {#contact}
 --------------------------------------------------------------------------------
@@ -75,7 +75,7 @@ CV %>% print_contact_info()
 
 
 
-Language Skills {#skills}
+Skills {#skills}
 --------------------------------------------------------------------------------
 
 ```{r}
@@ -84,14 +84,14 @@ CV %>% print_skill_bars()
 
 
 
-Disclaimer {#disclaimer}
---------------------------------------------------------------------------------
+<!-- Disclaimer {#disclaimer} -->
+<!-- -------------------------------------------------------------------------------- -->
 
-Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
+<!-- Made with the R package [**pagedown**](https://github.com/rstudio/pagedown).  -->
 
-The source code is available [on github.com/nstrayer/cv]({{{source_location}}}).
+<!-- The source code is available [on github.com/nstrayer/cv]({{{source_location}}}). -->
 
-Last updated on `r Sys.Date()`.
+<!-- Last updated on `r Sys.Date()`. -->
 
 
 
@@ -126,7 +126,7 @@ Education {data-icon=graduation-cap data-concise=true}
 CV %<>% print_section('education')
 ```
 
-Certifications {data-icon=certificate data-concise=true}
+Certification {data-icon=certificate data-concise=true}
 --------------------------------------------------------------------------------
 
 ```{r}
