@@ -40,6 +40,7 @@ sup {
   --sidebar-horizontal-padding: 0.01in; /* Reduce sidebar padding */
   --decorator-outer-dim: 10px; /* Make position deliniating circles larger */
   --decorator-border: 2px solid #bdd7e7; /* Make timeline a blue as well*/
+  --date-block-width: 0.75in;
 }
 
 .details .place {
@@ -116,8 +117,8 @@ sup {
 
 /* Add styles for little cards  */
 .info-card{
-  width: 220px;    
-  float: left;    
+  width: 220px;
+  float: left;
   padding: 0.5rem;
   margin: 0.5rem;
   box-shadow: 1px 1px 4px black;
