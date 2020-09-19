@@ -62,11 +62,11 @@ CV %>% print_skill_bars()
 Certifications {#certifications}
 --------------------------------------------------------------------------------
 
+![logo](cert/sql.jpg){width=100%}
+
 ![logo](cert/adv.jpg){width=100%}
 
 ![logo](cert/ba.png){width=100%}
-
-![logo](cert/sql.jpg){width=100%}
 
 Main
 ================================================================================
