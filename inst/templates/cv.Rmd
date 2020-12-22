@@ -99,6 +99,13 @@ Education {data-icon=graduation-cap data-concise=true}
 CV %<>% print_section('education')
 ```
 
+Publications {data-icon=book}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% print_section('academic_articles')
+```
+
 <!-- Certification {data-icon=certificate data-concise=true} -->
 <!-- -------------------------------------------------------------------------------- -->
 
@@ -172,12 +179,7 @@ CV %<>% print_section('education')
 
 
 
-<!-- Selected Publications, Posters, and Talks {data-icon=book} -->
-<!-- -------------------------------------------------------------------------------- -->
 
-<!-- ```{r} -->
-<!-- CV %<>% print_section('academic_articles') -->
-<!-- ``` -->
 
 
 
