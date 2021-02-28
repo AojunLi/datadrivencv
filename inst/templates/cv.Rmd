@@ -99,7 +99,7 @@ Education {data-icon=graduation-cap data-concise=true}
 CV %<>% print_section('education')
 ```
 
-Publications {data-icon=book}
+Publication {data-icon=book}
 --------------------------------------------------------------------------------
 
 ```{r}
